@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width:100%;
+    background: linear-gradient(to top, rgb(0,0,0,0.7)50%,rgb(0,0,0,0.7)50%), url(bg1.jpg );
+    /* background-image: url(bg.jpg); */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    /* background-color: antiquewhite; */
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left:10px ;
+    float: left;
+    padding-top: 10px;
+
+}
+.logo{
+    color: greenyellow;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 15px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+
+}
+ul li a:hover{
+    color: rgb(223, 223, 58);
+}
+
+.search{
+      width: 320px;
+      float:left;
+      margin-left: 270px;
+
+}
+.srch{
+     font-family: Arial, Helvetica, sans-serif;
+     width: 200px;
+     height: 40px;
+     background: transparent;
+     border: 1px solid white;
+     margin-top: 12px;
+     color: aliceblue;
+     border-right: none;
+     font-size: 18px;
+     float: left;
+     padding: 15px;
+     border-radius: 6px;
+
+
+}
+.btn{
+    width:100px;
+    height: 40px;
+    background: rgb(51, 3, 53);
+    border: 2px solid white;
+    margin-top: 12px;
+    color: bisque;
+    font-size: 15px;
+    border-radius: 5px ;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: aliceblue;
+    position: relative;
+   
+     
+}
+.content .para{
+    padding-left: 20px;  
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+}
+.content h1{
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 50px;
+ padding-left: 20px;
+ margin-top: 10%;
+ letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: rgb(226, 118, 18);
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+.cn:hover{
+    background-color: white;
+}
+.content span{
+    color:rgb(226, 118, 18);
+    font-size: 60px;
+}
+.form{
+    width: 280px;
+    height: 420px;
+    background: linear-gradient(to top, rgb(0, 0, 0, 0.7)50%, rgb(0, 0, 0, 0.7)50%);
+    position:absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+     
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color:rgb(226, 118, 18);
+    font-size: 22px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: auto;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgb(226, 118, 18);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+.form input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color: aliceblue;
+    font-family: Arial;
+}
+.btn1{
+    width: 240px;
+    height: 40px;
+    background: rgb(226, 118, 18);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+.btn1:hover{
+    background: white;
+    color: rgb(226, 118, 18);
+
+}
+.btn1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+
+}
+.form .link{
+  font-family: Arial;
+  text-align: center;
+  font-size: 17px;
+  text-align: center;
+  padding-top:20px;
+  
+}
+.form .link a{
+    text-decoration: none;
+    color: rgb(226, 118, 18);
+}
+.logwith{
+    padding-top: 10px;
+    padding-bottom:10px;
+    text-align: center;
+    /* background-color: aqua; */
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+
+}
+.icon ion-icon{
+    color: rgb(238, 227, 227);
+    font-size: 20px;
+    padding-left :13px;
+    padding-top: 5px;
+    transition: 0.4s ease;
+    
+    
+}
+.icon ion-icon:hover{
+    color:rgb(226, 118, 18);
+}
